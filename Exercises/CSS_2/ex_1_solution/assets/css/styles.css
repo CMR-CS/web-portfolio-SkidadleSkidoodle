@@ -13,3 +13,12 @@ span {
 p {
     color: #58585B;
 }
+
+#subtitle {
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.btn-pod {
+    font-size: 13px;
+}

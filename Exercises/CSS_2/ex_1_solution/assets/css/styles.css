@@ -5,6 +5,25 @@
 h3 {
     color: #1B75BB;    
 }
+
+ul {
+    list-style: none;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: #1B75BB;
+}
+
+a:hover {
+    color: #2898EF;
+}
+
+a:active {
+    color: #155D95;
+}
+
 span {
     font-weight: bold;
 }
@@ -17,6 +36,33 @@ p {
     letter-spacing: 1px;
 }
 /* POD STYLES */
+
+.pod {
+    border: 1px solid #6D6E70;
+    padding: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .btn-pod {
     font-size: 13px;
+    padding: 12px;
+}
+
+.event-pod {
+  width: 45%;
+}
+
+section span {
+    font-size: 10px;
+}
+
+div > span {
+    font-size: 10px;
+}
+
+/* BROWSE FORM STYLES */
+
+.subboxes {
+    margin-left: 36px;
 }

@@ -14,7 +14,7 @@ body
     font-size: 10px;
     line-height: normal;
     letter-spacing: 1px;
-    word-spacing: normal;
+    word-spacing: 2px;
 }
 
 h1
@@ -41,6 +41,11 @@ aside
 {
     float: left;
     width: 30%;
+}
+
+img
+{
+    height: 9px;
 }
 
 nav

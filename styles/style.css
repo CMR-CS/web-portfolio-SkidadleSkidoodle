@@ -1,13 +1,22 @@
 main
 {
     clear:both;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(to bottom, transparent, black),
+        url("/images/web_image_header.jpg");
 }
 
 body
 {
-    background-image: url("/images/doge%20-%20Copy.gif");
+    background-image: url("/images/web-portfolio-background.jpg");
     background-size: 100%;
-    width: 80%;
     height: 100%;
     padding: 10%;
     margin: auto;
@@ -30,7 +39,7 @@ h1
     color: white;
     font-size: 75px;
     text-align: center;
-    
+
 }
 
 h2
@@ -40,16 +49,23 @@ h2
     font-size: 30px;
 }
 
+h3{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 22px;
+}
+
 p
 {
     color: gold;
     font-family: 'Coiny', cursive;
-    font-size: 18px;
+    font-size: 16px;
+    text-indent: 50px;
 }
 
 ul
 {
-    
+
 }
 
 li
@@ -84,4 +100,20 @@ nav ul li a: hover, nav ul li a: focus
     color: black;
     background-color: white;
     font-weight: bold;
+}
+
+dd{
+    color: gold;
+    font-family: 'Coiny', cursive;
+    font-size: 15px;
+}
+dt{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 18px;
+}
+
+dl{
+    width: 90%;
+    margin: auto;
 }

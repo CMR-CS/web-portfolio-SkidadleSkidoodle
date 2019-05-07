@@ -1,0 +1,143 @@
+#art {
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 5px solid black;
+}
+
+.row {
+    display: table-row;
+    align-content: center;
+}
+.pixel {
+    display: table-cell;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.pen {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+main{
+    clear:both;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(to bottom, transparent, black),
+        url("/images/web_image_header.jpg");
+}
+
+body{
+    background-image: url("/images/web-portfolio-background.jpg");
+    background-size: 100%;
+    height: 100%;
+    padding: 10%;
+    margin: auto;
+}
+
+img{
+    margin:auto;
+}
+
+hr{
+    border-color: black;
+    border: double;
+}
+
+h1{
+    font-family: 'Coiny', cursive;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+
+}
+
+h2{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 22px;
+}
+
+p{
+    color: gold;
+    font-family: 'Coiny', cursive;
+    font-size: 16px;
+    text-indent: 50px;
+}
+
+ul{
+
+}
+
+li{
+    color: gold;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+
+nav ul li a{
+    padding: 0.25em 1em;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+}
+
+nav ul li a: hover, nav ul li a: focus{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+dd{
+    color: gold;
+    font-family: 'Coiny', cursive;
+    font-size: 15px;
+}
+
+dt{
+    color: white;
+    font-family: 'Coiny', cursive;
+    font-size: 18px;
+}
+
+dl{
+    width: 90%;
+    margin: auto;
+}
+
+.album {
+    flaot: left;
+    margin-right: 20px;
+}
+
+.caption {
+    clear: left;
+    padding: 12px 0;
+    margin: 0;
+}

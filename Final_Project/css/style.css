@@ -1,0 +1,55 @@
+body{
+    font-family: fantasy;
+    background-color: #1a001a;
+    color: white;
+}
+
+.container {
+    padding: auto;
+}
+
+header p{
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    font-family: fantasy
+}
+
+header .jumbotron {
+    background-image: url("/volcanos/title_volcano.jpg");
+    color:#BD1121;
+    margin-top: 20px;
+    border: ridge 7px;
+    border-color: darkgray;
+}
+
+main{
+    background-image: url(/volcanos/background-main.jpg);
+    border: ridge 7px;
+    border-radius: 20px;
+    border-color: darkgray;
+    text-align: center;
+}
+
+img{
+    border: solid 5px;
+    border-color: white;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
+
+main p{
+    font-size: 25px;
+}
+
+.expand:hover {
+    width: 310px;
+    height: 310px;
+}
+ul{
+    font-size: 20px;
+}
